@@ -1,0 +1,60 @@
+.car-one {
+    background: url('./images/slo.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-two {
+    background: url('./images/face.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.car-three {
+    background: url('./images/camping.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.cone-div {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cone-div h1 {
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    line-height: 1px;
+}
+.cone-div img {
+    width: 120px;
+}
+.cone-div p {
+    font-style: italic;
+    line-height: 1px;
+}
+.cone-line {
+    height: 2px;
+    width: 60px;
+    background-color: white;
+}
+.cone-exp {
+    width: 80px;
+    height: 30px;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.car-one:hover .cone-exp {
+    background-color: white;
+    color: black;
+    transition: .4s;
+}

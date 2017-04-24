@@ -1,0 +1,57 @@
+.deals-two {
+    height: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dt-left {
+    background: url('./../images/beardy.jpg') no-repeat center;
+    background-size: cover;
+    height: 380px;
+    width: 650px;
+    margin: 15px;
+    display: flex;
+    line-height: 1px;
+    color: white;
+    align-items: flex-end;
+}
+
+.dt-right {
+    background: url('./../images/face.jpg') no-repeat center;
+    background-size: cover;
+    height: 380px;
+    width: 650px;
+    margin: 15px;
+    display: flex;
+    line-height: 1px;
+    color: white;
+    align-items: flex-end;
+}
+
+.dt-bot {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: .5;
+    transition: .5s;
+    padding-left: 10px;
+}
+
+.dt-left:hover {
+    cursor: pointer;
+}
+
+.dt-right:hover {
+    cursor: pointer;
+}
+
+.dt-left:hover > .dt-bot {
+    opacity: .7;
+    transition: .5s;
+}
+
+.dt-right:hover > .dt-bot {
+    opacity: .7;
+    transition: .5s;
+}

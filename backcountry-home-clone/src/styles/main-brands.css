@@ -1,0 +1,22 @@
+.main-brands {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-brand {
+    height: 50px;
+    margin: 70px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-brands {
+        justify-content: space-around;
+    }
+    
+    .mb-brand {
+        margin: 0;
+    }
+}
